@@ -1,0 +1,8 @@
+<view class="list-container">
+	<ul>
+		<li wx:for="{{list}}" wx:for-item="item">
+			<image src="{{item.img}}" ></image>
+			<b>{{item.title}}</b>
+		</li>
+	</ul>
+</view>

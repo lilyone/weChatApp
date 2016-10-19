@@ -1,0 +1,12 @@
+<!--
+  index: int
+  msg: string
+  time: string
+-->
+<template name="signin">
+  <view>
+   <modal title="标题" confirm-text="confirm" cancel-text="cancel" hidden="{{modalHidden}}" bindconfirm="actionConfirm" bindcancel="actionCancel">
+	  这是对话框的内容。
+	</modal>
+  </view>
+</template>

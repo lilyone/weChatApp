@@ -1,0 +1,92 @@
+view {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+ 	font-family: "微软雅黑";
+ 	
+}
+.detail-container {
+	background: #eee;
+}
+.dBody{
+	background: #fff;
+}
+view .title {
+  width: 100%;
+  font-size: 16px;
+	padding: 6px 0 ;
+}
+
+view image {
+  width: 100%;
+}
+
+view .body {
+  font-size: 12px;
+}
+.detail-container swiper {
+	width: 100%;
+	height: 280px;
+}
+.detail-container swiper image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.detail-container swiper-item{
+	height: 280px;
+}
+swiper-item{
+	height: 180px;
+}
+swiper {
+	width: 100%;
+	height: 180px;
+}
+swiper image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.price{
+	color: red;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.dBody{
+	padding: 10px;
+	background: #fff;
+}
+.des{
+	font-size: 14px;
+	color: #666;
+	background: #fff;
+}
+.des span{
+	padding: 2px 6px;
+	background: #ffdfe4;
+	color: #f16377;
+	margin-right: 6px;
+}
+.des view{
+	margin-bottom: 6px;
+}
+.about{
+	margin: 14px 0 ;
+	background: #fff;
+	padding: 10px;
+}
+.about view.titleA{
+	font-size: 16px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	background: #fff;
+}
+.textA{
+	color: #666;
+	font-size: 14px;
+}

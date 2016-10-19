@@ -1,0 +1,51 @@
+.help-container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.main-nav{
+	height: 35px;
+	background: #fff;
+}
+
+.main-nav ul {
+  height: 35px;
+  display: flex;
+}
+
+.main-nav ul li {
+  height: 35px;
+  flex: 1;
+  line-height: 35px;
+  text-align: center;
+  border-bottom: solid 1px #d9d9d9;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.main-nav ul li.active {
+  border-bottom: solid 2px #dd2727;
+  color: #dd2727;
+}
+
+
+.main-content{
+	flex: 1;
+	background: #fff;
+	height: 100%;
+}
+swiper-item{
+	width: 100%;
+	height: 100%;
+}
+/*swiper-item:first-child{
+	background: green;
+}
+swiper-item:last-child{
+	background: yellow;
+}*/
+view.map{
+	width: 100%;
+	height: 100%;
+}

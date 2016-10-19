@@ -1,0 +1,123 @@
+<!--引入toast面板-->
+<import src="/tpls/toast.wxml" />
+
+<!--使用toast模板-->
+<template is="toast" data="{{toastHidden}}"></template>
+
+
+<view class="login-container" hidden="{{loginHidden}}">
+	<nav class="main-nav">
+        <ul>
+            <li class="{{current == 0 ? 'active' : ''}}" catchtap="switchSlider" data-index="0">手机号+密码登录</li>
+            <li class="{{current == 1 ? 'active' : ''}}" catchtap="switchSlider" data-index="1">手机号+验证码登录</li>
+        </ul>
+    </nav>
+     <swiper class="main-content" indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" current="{{current}}" bindchange="changeSlider">
+        <block>
+        	
+            <swiper-item>
+              	<input class="username1" placeholder="请输入手机号"  value="{{username}}" />
+              	<input class="pass1" placeholder="请输入密码"   value="{{pass}}"/>
+              	<view class="group">
+				  <block>
+				    <icon type="success" size="20" /><p>一个月内免登陆</p>
+				  </block>
+				</view>
+				
+              	<button class="login" bindtap="login">登陆</button>				
+            </swiper-item>
+            
+            
+            <swiper-item>
+             	<input class="username2" placeholder="请输入手机号"  value="{{username}}"/>
+             	<view class="yanzheng">
+             		<input class="username2" placeholder="请输入手机号"  value="{{pass}}"/>
+             		<button size="mini">获取验证码</button>
+             	</view>
+              	<view class="group">
+				  <block>
+				    <icon type="success" size="20" /><p>一个月内免登陆</p>
+				  </block>
+				</view>
+				<button class="login">登陆</button>
+            </swiper-item>
+            
+            
+        </block>
+    </swiper>
+</view>
+
+<scroll-view class="self-container" scroll-y="true" hidden="{{logihidden}}">	
+	<view class="head">
+		<image src="/images/head.png"></image><span>lee</span><image class="pen" src="/images/pen.png"></image>
+		<view>
+			<p>当前积分：0</p>
+			<p>虚拟货币：0</p>
+		</view>		
+	</view>
+	<view class="nav">
+		<span>
+			<image src="/images/dfk.png"></image>
+			待付款
+		</span>
+		<span class="callProduct" bindtap="callProduct">
+			<image src="/images/dsh.png"></image>
+			提醒发货
+		</span>
+		<span>
+			<image src="/images/wcdd.png"></image>
+			已取消
+		</span>
+		<span>
+			<image src="/images/qbdd.png"></image>
+			全部订单
+		</span>
+	</view>
+	<view class="items">
+		<i>
+			<span><image src="/images/i1.png"></image></span>
+			<span>我的积分<image class="right" src="/images/right.png"></image></span>
+		</i>
+		<i>
+			<span><image src="/images/i2.png"></image></span>
+			<span>虚拟货币<image class="right" src="/images/right.png"></image></span>
+		</i>
+		<i>
+			<span><image src="/images/i3.png"></image></span>
+			<span>在线补交货款<image class="right" src="/images/right.png"></image></span>
+		</i>
+		
+	</view>
+	
+	<view class="items">
+		<i>
+			<span><image src="/images/i4.png"></image></span>
+			<span>修改个人信息<image class="right" src="/images/right.png"></image></span>
+		</i>
+		<i>
+			<span><image src="/images/i5.png"></image></span>
+			<span>收货人地址管理<image class="right" src="/images/right.png"></image></span>
+		</i>
+		<i>
+			<span><image src="/images/i6.png"></image></span>
+			<span>修改密码<image class="right" src="/images/right.png"></image></span>
+		</i>
+		
+	</view>
+	
+	<view class="items">
+		<i>
+			<span><image src="/images/i7.png"></image></span>
+			<span>客服留言<image class="right" src="/images/right.png"></image></span>
+		</i>
+		<i>
+			<span><image src="/images/i8.png"></image></span>
+			<span>投诉留言<image class="right" src="/images/right.png"></image></span>
+		</i>
+		<i>
+			<span><image src="/images/i9.png"></image></span>
+			<span>在线咨询<image class="right" src="/images/right.png"></image></span>
+		</i>
+		
+	</view>
+</scroll-view> 

@@ -1,0 +1,14 @@
+[
+  {
+    "img": "/images/f1.jpg",
+    "title": "鲜花",
+    "desc":"千人好评，销量过万",
+    "price":198
+  },
+  {
+    "img": "/images/f2.jpg",
+    "title": "蛋糕",
+    "desc":"千人好评，销量过万",
+    "price":198
+  }
+]

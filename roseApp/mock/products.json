@@ -1,0 +1,56 @@
+[
+  {
+  	"id":0,
+    "img": "/images/f1.jpg",
+    "title": "鲜花",
+    "desc":"千人好评，销量过万",
+    "price":198
+  },
+  {
+  	"id":1,
+    "img": "/images/f2.jpg",
+    "title": "蛋糕",
+    "desc":"千人好评，销量过万",
+    "price":198
+  },
+  {
+  	"id":2,
+    "img": "/images/f3.jpg",
+    "title": "浪漫组合",
+    "desc":"千人好评，销量过万",
+    "price":198
+    
+  },
+  {
+  	"id":3,
+    "img": "/images/f4.jpg",
+    "title": "红酒",
+    "desc":"千人好评，销量过万",
+    "price":168
+  },
+  {
+  	"id":4,
+    "img": "/images/f5.jpg",
+    "title": "巧克力",
+    "desc":"千人好评，销量过万",
+    "price":198
+  },
+  {
+    "img": "/images/f6.jpg",
+    "title": "卡通花束",
+    "desc":"千人好评，销量过万",
+    "price":258
+  },
+  {
+    "img": "/images/f7.jpg",
+    "title": "毛绒玩具",
+    "desc":"千人好评，销量过万",
+    "price":288
+  },
+  {
+    "img": "/images/f8.jpg",
+    "title": "商业花篮",
+    "desc":"千人好评，销量过万",
+    "price":358
+  }
+]

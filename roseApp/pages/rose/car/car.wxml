@@ -1,0 +1,9 @@
+<view>
+	<view>
+		<image class="carImage" src="{{carUrl}}"></image>
+		<b>购物车还是空的，去挑几件中意的商品吧</b>
+		<button bindtap="buy" type="{{warn}}" form-type="{{submit}}" style="line-height: 30px; font-size: 12px;">开始购物</button>
+		
+	</view>
+	
+</view>

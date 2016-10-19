@@ -1,0 +1,59 @@
+{
+  
+  "pages":[
+  	"pages/rose/main/main",
+  	"pages/rose/detail/detail",
+    "pages/rose/list/list",
+    "pages/rose/car/car",
+    "pages/rose/login/login",
+    "pages/rose/self/self",
+    "pages/rose/help/help"
+  ],
+  "window":{
+  	"navigationBarBackgroundColor": "#dd2727",
+    "backgroundTextStyle":"light",
+    "backgroundColor":"pink",
+    "navigationBarTitleText": "Flower",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#a9b7b7",
+    "selectedColor":"#dd2727",
+    "borderStyle":"white",
+    "list": [
+    	{
+	      "pagePath": "pages/rose/main/main",
+	      "text": "首页",
+	      "iconPath": "images/mian.png",
+        "selectedIconPath": "images/main1.png"
+		    }, {
+		      "pagePath": "pages/rose/list/list",
+		      "text": "分类",
+		      "iconPath": "images/list.png",
+        	"selectedIconPath": "images/listlist.png"
+		    },
+		    {
+		      "pagePath": "pages/rose/car/car",
+		      "text": "购物车",
+		      "iconPath": "images/car.png",
+       		 "selectedIconPath": "images/car1.png"
+		    },
+		    {
+		      "pagePath": "pages/rose/login/login",
+		      "text": "个人中心",
+		      "iconPath": "images/self.png",
+          "selectedIconPath": "images/self1.png"
+		    },
+		    {
+		      "pagePath": "pages/rose/help/help",
+		      "text": "帮助中心",
+		      "iconPath": "images/help.png",
+       	 "selectedIconPath": "images/help1.png"
+		    }
+		    
+		]
+	  }
+  
+  
+  
+}

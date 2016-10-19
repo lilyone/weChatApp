@@ -1,0 +1,36 @@
+<view class="detail-container">
+	<swiper indicator-dots="true" autoplay="true" interval="2000" duration="100" style="height:480px">
+		<block wx:for="{{imgUrls}}">
+		    <swiper-item>
+		      <image src="{{item}}" class="slide-image"  />
+		    </swiper-item>
+		 </block>
+	</swiper>   
+	<view class="dBody">
+		<view class="title">
+	     	 海洋之星
+	    </view>
+	    <view class="price">
+	     	 ￥314
+	    </view>
+	    <view class="des">
+	     	 <view><span>描述</span>19枝红玫瑰，搭配巴西叶、勿忘我，精美包装纸</view>
+	     	 <view><span>花语</span>海洋之心那么美,抵不过我遇见你一刹那心中的阵阵悸动。</view>
+	    </view>
+	   
+	</view>
+	<view class="about">
+	    <view class="titleA">鲜花配送说明</view>
+	     <text class="textA">下单成功后，您的鲜花将由您选定的花店开始服务，直至配送完成。				
+		        您可以在支付完成后，查看到指定花店的联系方式。		                
+		        如有额外要求，或需要修改订单信息（地址、送达日期），请务必于配送时间前 24小时之前提出。   
+	    </text>
+	</view>
+	<view class="about">
+	    <view class="titleA">退换说明</view>
+	     <text class="textA">退换需要在配送时间前24小时前提交。						        
+                在规定的可退换时间内，全额退款到您的付款账户。		                		        
+                如有质量、服务或投诉问题，可先与花店协商，并及时联系客服   
+	    </text>
+	</view>
+</view>
