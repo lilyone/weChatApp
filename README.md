@@ -11,16 +11,16 @@
 ----------
 #### 商品详情页
 ![shouye](./list.png) 
-![shouye](./roseApp/img/list1.png)
+![shouye](./list1.png)
 #### 分类页
-![shouye](./roseApp/img/list2.png)
+![shouye](./list2.png)
 #### 购物车页
-![shouye](./roseApp/img/list3.png)
+![shouye](./list3.png)
 #### 登录页
-![shouye](./roseApp/img/list4.png)
+![shouye](./list4.png)
 #### 个人中心
-![shouye](./roseApp/img/list5.png)
+![shouye](./list5.png)
 #### 提醒发货
-![shouye](./roseApp/img/list6.png)
+![shouye](./list6.png)
 #### 帮助中心
-![shouye](./roseApp/img/list7.png)
+![shouye](./list7.png)
