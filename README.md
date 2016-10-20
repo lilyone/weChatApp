@@ -1,7 +1,7 @@
 # weChatApp
 微信小程序
 #### 首页：
-![shouye](D:\HbuliderProject\微信小程序\pull\weChatApp/index.png) 
+![shouye](./index.png) 
 
 
 ----------
@@ -9,17 +9,17 @@
 -  **下拉刷新** 
 -  **mock数据**
 #### 商品详情页
-![shouye](D:\HbuliderProject\微信小程序\pull\weChatApp/list.png) 
-![shouye](C:\Users\ata\Desktop/list1.png)
+![shouye](./list.png) 
+![shouye](roseApp/img/list1.png)
 #### 分类页
-![shouye](C:\Users\ata\Desktop/list2.png)
+![shouye](roseApp/img/list2.png)
 #### 购物车页
-![shouye](C:\Users\ata\Desktop/list3.png)
+![shouye](roseApp/img/list3.png)
 #### 登录页
-![shouye](C:\Users\ata\Desktop/list4.png)
+![shouye](roseApp/img/list4.png)
 #### 个人中心
-![shouye](C:\Users\ata\Desktop/list5.png)
+![shouye](roseApp/img/list5.png)
 #### 提醒发货
-![shouye](C:\Users\ata\Desktop/list6.png)
+![shouye](roseApp/img/list6.png)
 #### 帮助中心
-![shouye](C:\Users\ata\Desktop/list7.png)
+![shouye](roseApp/img/list7.png)
